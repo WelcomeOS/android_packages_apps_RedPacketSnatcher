@@ -16,9 +16,7 @@ android_app {
 
 //  static_libs: [],
 
-  libs: [
-    "telephony-common",
-  ],
+//  libs: [],
 
   optimize: {
     optimize: true,
