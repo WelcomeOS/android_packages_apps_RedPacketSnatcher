@@ -4,6 +4,7 @@ android_app {
   manifest: "AndroidManifest.xml",
   privileged: true,
   certificate: "platform",
+  sdk_version: "current",
 
   srcs: [
     "src/**/*.kt",
