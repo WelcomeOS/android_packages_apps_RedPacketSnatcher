@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Red Packet Snatching</string>
+    <string name="red_packet">Red Packet</string>
+    <string name="coin_open">Open Coin</string>
+</resources>
