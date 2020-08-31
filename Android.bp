@@ -1,0 +1,36 @@
+// Copyright (C) 2020, WelcomeOS
+android_app {
+  name: "RedPacketSnatching",
+  manifest: "AndroidManifest.xml",
+  privileged: true,
+  platform_apis: true,
+  certificate: "platform",
+
+  srcs: [
+    "src/**/*.kt",
+    "src/**/*.java",
+  ],
+
+  resource_dirs: [
+    "res/",
+  ],
+
+//  static_libs: [],
+
+  libs: [
+    "telephony-common",
+  ],
+
+  kotlincflags: [
+    "-Werror",
+    "-verbose",
+  ],
+
+  optimize: {
+    optimize: true,
+    obfuscate: true,
+    proguard_flags_files: [
+      "proguard.flags",
+    ],
+  },
+}
