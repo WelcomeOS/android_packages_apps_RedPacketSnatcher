@@ -5,6 +5,7 @@ android_app {
   privileged: true,
   certificate: "platform",
   sdk_version: "current",
+  product_specific: true,
 
   srcs: [
     "src/**/*.kt",
